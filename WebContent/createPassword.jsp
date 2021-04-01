@@ -5,23 +5,23 @@
 <head>
     <style>
         .content{
-margin-left:43%;
-margin-top:-500px;
+			margin-left:43%;
+			margin-top:-500px;
         }
     </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <link rel="stylesheet" href ="registerPage_style.css"/>
-        <!-- create password link -->
-        <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-<title>GFB: MPN</title>
+<link rel="stylesheet" href ="registerPage_style.css"/>
+<!-- create password eye link -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<title>GFB: Create Password</title>
 </head>
 <body>
 	<ul>
 		<li>
         	<a href="index.jsp"><img class="logo" src = "images/logo.jpg"/></a>
         </li>
-       </ul>
-        <div class = "navBar">
+    </ul>
+    <div class = "navBar">
         <ul>
 		<li>
         	<a href="registerPage.jsp">Personal Information</a>
@@ -45,18 +45,17 @@ margin-top:-500px;
         </div>
 	
 	<div class = "content">
-	<h2>Create Password</h2>
-	<p>Please enter your password</p>
- <input type="password" id="pwd" placeholder="Create your password"/>
+		<h2>Create Password</h2>
+		<p>Please enter your password</p>
+ 		<input type="password" id="pwd" placeholder="Create your password"/>
             <i class="fa fa-eye" onclick="showhide()" id="eye"></i>
 
-			<!-- javascript about enter a password -->
-            <script type="text/javascript">
+		<!-- javascript about enter a password -->
+        <script type="text/javascript">
             var eye = document.getElementById("eye");
             var pwd = document.getElementById("pwd");
 
             function showhide(){
-
                     if (pwd.type == "password") {
                         pwd.type = "text";
                             eye.className='fa fa-eye-slash'
@@ -65,10 +64,9 @@ margin-top:-500px;
                         eye.className='fa fa-eye'
                     }
             }
-    </script> 
-
-	
+    	</script> 
 	</div>
+	
 	<input id = "btnBack" type = "button" value = "Back" onclick ="window.location='additionalInformationStatus.jsp'">
 	<input id = "btnContinue" type = "button" value = "Continue" onclick ="window.location='createAccount.jsp'">
 	

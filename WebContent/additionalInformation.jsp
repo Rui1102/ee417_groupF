@@ -5,21 +5,21 @@
 <head>
     <style>
         .content{
-margin-left:43%;
-margin-top:-500px;
+			margin-left:43%;
+			margin-top:-500px;
         }
     </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <link rel="stylesheet" href ="registerPage_style.css"/>
-<title>GFB: MPN</title>
+<link rel="stylesheet" href ="registerPage_style.css"/>
+<title>GFB: Additional Information</title>
 </head>
 <body>
 	<ul>
 		<li>
         	<a href="index.jsp"><img class="logo" src = "images/logo.jpg"/></a>
         </li>
-       </ul>
-        <div class = "navBar">
+    </ul>
+    <div class = "navBar">
         <ul>
 		<li>
         	<a href="registerPage.jsp">Personal Information</a>
@@ -40,22 +40,22 @@ margin-top:-500px;
         	<a href="createAccount.jsp">Create Account</a>
         </li>
         </ul>
-        </div>
+    </div>
 	
 	<div class="content">
-	<h2>Additional Information</h2>
-	<p>Please tell us your nationality and place of birth.</p>
-	<p>Nationality (Country) <input type="text"></p> <!-- as shown on passport -->
-	<p>City of Birth <input type="text"></p>
-	<p>Country of Birth <input type="text"></p>
-	<p>What is your legal gender? You can only select one of these two options.</p>
-	<!-- Only can select one of these two options -->
-	<p>
-			<input type="radio" name="type1">Female
-			<p>
-			<input type="radio" name="type1">Male
-			</p>
+		<h2>Additional Information</h2>
+		<p>Please tell us your nationality and place of birth.</p>
+		<p>Nationality (Country) <input type="text"></p> <!-- as shown on passport -->
+		<p>City of Birth <input type="text"></p>
+		<p>Country of Birth <input type="text"></p>
+		<p>What is your legal gender? You can only select one of these two options.</p>
+		<!-- Only can select one of these two options -->
+		<p>
+			<input type="radio" name="type1">Female</p>
+		<p>
+			<input type="radio" name="type1">Male</p>
 	</div>
+	
 	<input id = "btnBack" type = "button" value = "Back" onclick ="window.location='homeAddress.jsp'">
 	<input id = "btnContinue" type = "button" value = "Continue" onclick ="window.location='additionalInformationStatus.jsp'">
 	

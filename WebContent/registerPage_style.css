@@ -19,20 +19,16 @@ body{
 	margin-top:70px;
 	font-size:17px;
 	margin-left:20px;
-	
 }
 
 .content{
-
-margin-left:37%;
-margin-top:-450px;
-font-size:17px;
- 
-
+	margin-left:37%;
+	margin-top:-450px;
+	font-size:17px;
 }
 
 .content h2{
-margin-top:10px;	
+	margin-top:10px;	
 }
 
 ul{
@@ -41,11 +37,10 @@ ul{
 
 
 li{
-	  width: 300px;
+  width: 300px;
   height: 30px;
   margin: 50px 0;
   margin-top: 5px;
-  
 }
 
 a {
@@ -56,24 +51,20 @@ a {
 #btnContinue{
 	margin-left:15%;
 	margin-top:2%;
-
     color: white;
     background-color:#0572DB;
     width:   100px;     
-    height: 48px; 
- 
- 
+    height: 48px;  
 }
 
 #btnBack{
-		margin-left:37%;
+	margin-left:37%;
 	margin-top:2%;
-
     color: #0572DB;
     background-color:#F8F8FF;
     width:   100px;     
     height: 48px;
-       border-style: none;  
+    border-style: none;  
 }
 
 #address{

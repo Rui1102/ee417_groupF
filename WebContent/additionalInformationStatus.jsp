@@ -5,21 +5,21 @@
 <head>
     <style>
         .content{
-margin-left:43%;
-margin-top:-500px;
+			margin-left:43%;
+			margin-top:-500px;
         }
     </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <link rel="stylesheet" href ="registerPage_style.css"/>
-<title>GFB: MPN</title>
+<link rel="stylesheet" href ="registerPage_style.css"/>
+<title>GFB: Additional Informaiton Status</title>
 </head>
 <body>
 	<ul>
 		<li>
         	<a href="index.jsp"><img class="logo" src = "images/logo.jpg"/></a>
         </li>
-       </ul>
-        <div class = "navBar">
+    </ul>
+    <div class = "navBar">
         <ul>
 		<li>
         	<a href="registerPage.jsp">Personal Information</a>
@@ -43,8 +43,8 @@ margin-top:-500px;
         </div>
 	
 	<div class = "content">
-	<h2>Additional Information</h2>
-	<p>what is your main employment status?</p>
+		<h2>Additional Information</h2>
+		<p>what is your main employment status?</p>
 		<select name="status">
 			<option value="one" selected>Employed (full-time or part-time) </option>	
 			<option value="two" >Self-employed or freelance</option>
@@ -52,8 +52,8 @@ margin-top:-500px;
 			<option value="four" >Retired or homemaker</option>	
 			<option value="four" >Unemployed</option>
 		</select>
-
 	</div>
+	
 	<input id = "btnBack" type = "button" value = "Back" onclick ="window.location='additionalInformation.jsp'">
 	<input id = "btnContinue" type = "button" value = "Continue" onclick ="window.location='createPassword.jsp'">
 	

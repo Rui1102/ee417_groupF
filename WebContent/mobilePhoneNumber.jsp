@@ -4,57 +4,54 @@
 <html>
 <head>
     <style>
-        .content{
-margin-left:43%;
-margin-top:-500px;
+    	.content{
+			margin-left:43%;
+			margin-top:-500px;
         }
     </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <link rel="stylesheet" href ="registerPage_style.css"/>
-<title>GFB: MPN</title>
+<link rel="stylesheet" href ="registerPage_style.css"/>
+<title>GFB: Mobile Phone Number</title>
 </head>
 
 <body>
-
-
 	<ul>
 		<li>
         	<a href="index.jsp"><img class="logo" src = "images/logo.jpg"/></a>
         </li>
-       </ul>
-        <div class = "navBar">
+     </ul>
+      <div class = "navBar">
         <ul>
-		<li>
-        	<a href="registerPage.jsp">Personal Information</a>
-        </li>
-        <li>
-        	<a href="mobilePhoneNumber.jsp">Mobile Phone Number</a>
-        </li>
-        <li>
-        	<a href="homeAddress.jsp">Home Address</a>
-        </li>
-        <li>
-        	<a href="additionalInformation.jsp">Additional Information</a>
-        </li>
-        <li>
-        	<a href="createPassword.jsp">Create Password</a>
-        </li>
-        <li>
-        	<a href="createAccount.jsp">Create Account</a>
-        </li>
+			<li>
+        		<a href="registerPage.jsp">Personal Information</a>
+        	</li>
+        	<li>
+        		<a href="mobilePhoneNumber.jsp">Mobile Phone Number</a>
+        	</li>
+        	<li>
+        		<a href="homeAddress.jsp">Home Address</a>
+        	</li>
+        	<li>
+        		<a href="additionalInformation.jsp">Additional Information</a>
+        	</li>
+        	<li>
+        		<a href="createPassword.jsp">Create Password</a>
+        	</li>
+        	<li>
+        		<a href="createAccount.jsp">Create Account</a>
+        	</li>
         </ul>
-        </div>
+       </div>
 	
 	<div class = "content">
-	<h2>Mobile Phone Number</h2>
-	<p>We'll need it later to pair your smartphone to your account.<br/>
-	This keeps your account safe.</p>
+		<h2>Mobile Phone Number</h2>
+		<p>We'll need it later to pair your smartphone to your account.<br/>
+	   	   This keeps your account safe.</p>
 	
-	<p>Mobile Number <input type="text"></p>
+		<p>Mobile Number <input type="text"></p>
 	</div>
 	<input id = "btnBack" type = "button" value = "Back" onclick ="window.location='registerPage.jsp'">
 	<input id = "btnContinue" type = "button" value = "Continue" onclick ="window.location='homeAddress.jsp'">
-
 	
 </body>
 </html>
